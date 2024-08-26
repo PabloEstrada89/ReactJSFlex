@@ -3,6 +3,8 @@ import "./CartWidget.css"
 
 export const CartWidget = () => {
   return (
-    <div>🛒 7</div>
+    <div>            
+        <i className="fas fa-shopping-cart"></i>
+        <span>0</span></div>
   )
 }

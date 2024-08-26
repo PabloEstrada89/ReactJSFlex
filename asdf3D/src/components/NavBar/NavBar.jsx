@@ -1,9 +1,9 @@
 import React from 'react'
 import { CartWidget } from '../CartWidget/CartWidget'
+import "./NavBar.css"
 
 export const NavBar = () => {
   return (
-    <div>
         <nav>
             <div>🍬</div>
             <ul>
@@ -13,6 +13,5 @@ export const NavBar = () => {
             </ul>
             <CartWidget />
         </nav>
-    </div>
   )
 }
