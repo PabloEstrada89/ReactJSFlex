@@ -4,7 +4,7 @@ import { NavBar } from './components/NavBar/NavBar';
 
 function App() {
     return (
-        <div className="App">
+        <div className="d-flex justify-content-center">
             <NavBar />
             <ItemListContainer saludo="¡Bienvenido a nuestra tienda!" />
         </div>
