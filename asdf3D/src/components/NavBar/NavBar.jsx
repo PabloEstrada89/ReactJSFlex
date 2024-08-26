@@ -1,14 +1,17 @@
 import React from 'react'
+import { CartWidget } from '../CartWidget/CartWidget'
 
 export const NavBar = () => {
   return (
     <div>
         <nav>
-            <il>
-                <ul>1</ul>
-                <ul>1</ul>
-                <ul>1</ul>
-            </il>
+            <div>🍬</div>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <CartWidget />
         </nav>
     </div>
   )
